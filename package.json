@@ -13,7 +13,7 @@
     ".eslintrc"
   ],
   "dependencies": {
-    "@alifd/next": "^1.x",
+    "@alifd/next": "^1.14.4",
     "@alifd/theme-1": "^0.0.7",
     "@antv/data-set": "^0.8.9",
     "@icedesign/container": "^1.x",
@@ -25,6 +25,7 @@
     "@icedesign/layout": "^1.x",
     "@icedesign/theme": "^1.x",
     "async-validator": "^1.10.1",
+    "axios": "^0.18.0",
     "bizcharts": "^3.4.1",
     "classnames": "^2.2.5",
     "moment": "^2.23.0",
@@ -35,6 +36,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-babel": "^4.1.1",
@@ -46,6 +49,7 @@
   "scripts": {
     "start": "ice dev",
     "build": "ice build",
+    "test": "node --experimental-modules tests/index.mjs&&Echo '调用结束'",
     "lint": "eslint . --ext '.js,.jsx' --fix"
   },
   "publishConfig": {
