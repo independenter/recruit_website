@@ -2,6 +2,7 @@
   "name": "@icedesign/hr-management-admin-scaffold",
   "version": "1.0.0",
   "description": "该模板适用于人力资源类的管理后台，默认内置丰富的图表和表格区块，使用时需要根据需求进行删除和添加",
+  "license": "GPL-3.0",
   "files": [
     "src/",
     "build/",
@@ -28,7 +29,9 @@
     "axios": "^0.18.0",
     "bizcharts": "^3.4.1",
     "classnames": "^2.2.5",
+    "icestore": "^0.1.2",
     "moment": "^2.23.0",
+    "object.map": "^1.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.4.1",
